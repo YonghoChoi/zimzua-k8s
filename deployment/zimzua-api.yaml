@@ -15,12 +15,7 @@ spec:
       - name: regcred
       containers:
       - name: zimzua-api
-        image: zimzua-api
-        resources:
-          limits:
-            memory: "500Mi"
-            cpu: "100m"
-        imagePullPolicy: Always
+        image: 992189553983.dkr.ecr.ap-northeast-2.amazonaws.com/zimzua/api:0.4
         env:
         - name: DB_IP
           valueFrom:

@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: zimzua-api
+spec:
+  selector:
+    app: zimzua
+    role: api
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      nodePort: 31001
+  type: NodePort
