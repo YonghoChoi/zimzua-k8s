@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: zimzua-db
-        image: 992189553983.dkr.ecr.ap-northeast-2.amazonaws.com/zimzua/db:0.1
+        image: 992189553983.dkr.ecr.ap-northeast-2.amazonaws.com/zimzua/db:0.3
         ports:
         - containerPort: 3306
         env:
