@@ -1,2 +1,3 @@
-# zimzua-k8s
-짐 보관 어플 zimzua의 kubernetes 설정 파일
+# Kubernetes for ZIMZUA
+
+내용 없음
